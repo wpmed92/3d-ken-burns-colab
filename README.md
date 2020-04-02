@@ -6,10 +6,13 @@ This project aims to help those who want to quickly try out and play with [3d-ke
 Just open the notebook in Google Colab, enable GPU in your runtime, and go through the steps.
 Once the original git repo is cloned, modify the requirements.txt file and delete a the cupy line, because Colab can't install that.
 It will be installed in another separate step.
+The step that actually performs the autoparalax is this:
 
 ```
 python autozoom.py --in ./images/doublestrike.jpg --out ./magic.mp4
 ```
+
+You can drag and drop your own images in Colab, and update the `--in ./path/to/your/image.jpg` part accordingly.
 
 ## References
 
